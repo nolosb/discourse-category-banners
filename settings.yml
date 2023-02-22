@@ -36,9 +36,14 @@ show_above_site_header:
   description: "Display the banner in the above site header connector."
 
 show_below_site_header:
-  default: true
+  default: false
   type: bool
   description: "Display the banner in the below site header connector."
+
+show_above_main_container:
+  default: true
+  type: bool
+  description: 'Display the banner above the main container (Sidebar will start right below the header).'
 
 show_category_icon:
   default: false
